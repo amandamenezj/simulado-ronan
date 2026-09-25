@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet">
 </head>
 <body>
-    
+    <h1>Simulado - Amanda e Maria Clara</h1>
+    <nav>
+        <li>
+            <ol> Simulado de Python</ol>
+        </li>
+    </nav>
+
+<form action="" method="">
+        <label for="distancia">Digite a distância percorrida durante o dia:</label>
+        <input type="number" name="dist" id="dist">
+        <br>
+        <label for="dias">Digite quantos dias da semana:</label>
+        <input type="number" name="dias" id="dias">
+        <br>
+        <label for="transporte">Digite o meio de transporte utilizado:</label>
+        <input type="text" name="transport" id="transport">
+        <br>
+        <label for="km">Insira quantos km por mês:</label>
+        <input type="number" name="km" id="km"><br>
+    </form>
+
+    <button type="submit">CALCULAR</button>
+
+    <br><br>
+
+    <h2> RESULTADOS!</h2>
+    <br>
+    <form action="">
+      <label for="emissao">A quantidade emitida de CO2 foi:</label>
+        <!-- step => permite numero com virgula -->
+        <input type="number" step="0.01" name="emissao" id="emissao"> 
+        <br><br>
+        
+    </form>
+
+    <!-- <p>O total de emissão no mês foi de:<b>{{mult}}</b></p> -->
+
+<h2> Faixa esperada</h2>
+    <form action="">
+    <label for="faixa">O resultado da sua faixa foi de:</label>
+        <input type="text" name="faixa" id="faixa">
+        </form>
+
+     <!-- <p>A subtração foi <b>{{sub}}</b></p>
+    -->
+
 </body>
 </html>
